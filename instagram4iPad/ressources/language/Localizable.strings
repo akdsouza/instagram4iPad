@@ -1,0 +1,28 @@
+/* 
+  Localizables.strings
+  instagram4iPad
+
+  Created by Markus Emrich on 28.04.12.
+  Copyright (c) 2012 Markus Emrich. All rights reserved.
+*/
+
+
+// general
+"keyCancel"                        = "Cancel";
+
+// connection / login
+"keyConnectToInstagramTitle"       = "PLEASE CONNECT WITH INSTAGRAM…";
+"keyConnectToInstagramButtonTitle" = "Connect";
+"keyConnectWelcomeMessageFormat"   = "Welcome %@\nYou already uploaded %d photos with your account.";
+
+// photo infos
+"keyCommentsAndLikesFormat"        = "L%02d | C%02d";
+"keyNoLocationInfo"                = "Nobody knows…";
+"keyNoDescriptionInfo"             = "What a beautiful picture!";
+
+// sharing
+"keyEmailSubjectFormat"            = "Look at my gorgeous Photo: %@";
+"keyOpenWebsite"                   = "Show on Instagram.com";
+"keyOpenInInstagramApp"            = "Show in Instagram";
+"keyCopyPhotoLink"                 = "Copy photo link";
+"keyShareViaEmail"                 = "Send via eMail";

@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22C580D154B65C10099DC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22C580C154B65C10099DC20 /* UIKit.framework */; };
+		D22C580F154B65C10099DC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22C580E154B65C10099DC20 /* Foundation.framework */; };
+		D22C5811154B65C10099DC20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22C5810154B65C10099DC20 /* CoreGraphics.framework */; };
+		D22C5840154B66760099DC20 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D22C583D154B66760099DC20 /* Icon.png */; };
+		D22C5841154B66760099DC20 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D22C583E154B66760099DC20 /* Icon@2x.png */; };
+		D22C5842154B66760099DC20 /* ImageRect.png in Resources */ = {isa = PBXBuildFile; fileRef = D22C583F154B66760099DC20 /* ImageRect.png */; };
+		D22C584B154B67CA0099DC20 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22C5849154B67CA0099DC20 /* MainViewController.m */; };
+		D22C584E154B67EC0099DC20 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D22C584D154B67EC0099DC20 /* MainViewController.xib */; };
+		D22C5851154B6A860099DC20 /* logo_instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = D22C584F154B6A860099DC20 /* logo_instagram.png */; };
+		D22C5852154B6A860099DC20 /* logo_instagram@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D22C5850154B6A860099DC20 /* logo_instagram@2x.png */; };
+		D22FAD84154BFED80012D15D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD80154BFED80012D15D /* WebViewController.m */; };
+		D22FAD85154BFED80012D15D /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D22FAD83154BFED80012D15D /* WebViewController.xib */; };
+		D22FAD88154C042E0012D15D /* button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = D22FAD86154C042E0012D15D /* button_close.png */; };
+		D22FAD89154C042E0012D15D /* button_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D22FAD87154C042E0012D15D /* button_close@2x.png */; };
+		D22FAD8B154C0AED0012D15D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22FAD8A154C0AED0012D15D /* QuartzCore.framework */; };
+		D22FADB4154C0D320012D15D /* DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD8F154C0D310012D15D /* DataProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADB5154C0D320012D15D /* JSONDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD91154C0D310012D15D /* JSONDataProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADB6154C0D320012D15D /* NSArray+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD95154C0D320012D15D /* NSArray+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADB7154C0D320012D15D /* NSDictionary+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD97154C0D320012D15D /* NSDictionary+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADB8154C0D320012D15D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD99154C0D320012D15D /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADB9154C0D320012D15D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD9B154C0D320012D15D /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADBA154C0D320012D15D /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD9D154C0D320012D15D /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADBB154C0D320012D15D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FAD9F154C0D320012D15D /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADBC154C0D320012D15D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADA1154C0D320012D15D /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADBD154C0D320012D15D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADA3154C0D320012D15D /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADBE154C0D320012D15D /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADA7154C0D320012D15D /* NSString+Additions.m */; };
+		D22FADBF154C0D320012D15D /* UIColor+rgb.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADA9154C0D320012D15D /* UIColor+rgb.m */; };
+		D22FADC1154C0D320012D15D /* UILabel+VerticalTextAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADAD154C0D320012D15D /* UILabel+VerticalTextAlignment.m */; };
+		D22FADC2154C0D320012D15D /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADAF154C0D320012D15D /* UIView+position.m */; };
+		D22FADCA154C17710012D15D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22FADC9154C17710012D15D /* Security.framework */; };
+		D22FADCD154C1E280012D15D /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADCC154C1E280012D15D /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D22FADD4154C22F50012D15D /* ImageListDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADD3154C22F50012D15D /* ImageListDataProvider.m */; };
+		D22FADD7154C27100012D15D /* UserInfoDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADD6154C27100012D15D /* UserInfoDataProvider.m */; };
+		D22FADE2154C29900012D15D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FADE0154C298D0012D15D /* BaseViewController.m */; };
+		D23B9AEC15CABF17006009F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B9AE715CABF04006009F8 /* AppDelegate.m */; };
+		D23B9AED15CABF1D006009F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B9AEB15CABF07006009F8 /* main.m */; };
+		D25A4F17155165B1004E1132 /* ThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A4F16155165B1004E1132 /* ThumbnailView.m */; };
+		D25A4F1A155165CD004E1132 /* ThumbnailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F19155165CD004E1132 /* ThumbnailView.xib */; };
+		D25A4F1E15516BBC004E1132 /* ImageError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F1B15516BBC004E1132 /* ImageError@2x.png */; };
+		D25A4F1F15516BBC004E1132 /* loadmore_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F1C15516BBC004E1132 /* loadmore_button.png */; };
+		D25A4F2015516BBC004E1132 /* loadmore_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F1D15516BBC004E1132 /* loadmore_button@2x.png */; };
+		D25A4F2215516BE8004E1132 /* ImageRect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F2115516BE8004E1132 /* ImageRect@2x.png */; };
+		D25A4F2515517E47004E1132 /* location_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F2315517E47004E1132 /* location_marker.png */; };
+		D25A4F2615517E47004E1132 /* location_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F2415517E47004E1132 /* location_marker@2x.png */; };
+		D25A4F2915517FEB004E1132 /* NSDictionary+safeObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A4F2815517FEB004E1132 /* NSDictionary+safeObjectForKey.m */; };
+		D25A4F3115518574004E1132 /* FullscreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A4F2D15518574004E1132 /* FullscreenViewController.m */; };
+		D25A4F3215518574004E1132 /* FullscreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F3015518574004E1132 /* FullscreenViewController.xib */; };
+		D25A4F351551D23C004E1132 /* sharebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F331551D23C004E1132 /* sharebutton.png */; };
+		D25A4F361551D23C004E1132 /* sharebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A4F341551D23C004E1132 /* sharebutton@2x.png */; };
+		D25A4F381551D774004E1132 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25A4F371551D774004E1132 /* MessageUI.framework */; };
+		D265DE2B1551F0CD00ACCB20 /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D265DE291551F0CD00ACCB20 /* Icon-iPad.png */; };
+		D265DE2C1551F0CD00ACCB20 /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D265DE2A1551F0CD00ACCB20 /* Icon-iPad@2x.png */; };
+		D267C59315502A950057169B /* LazyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D267C59215502A950057169B /* LazyImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D2A64DEB154C329F00200EEF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2A64DEA154C329F00200EEF /* Localizable.strings */; };
+		D2AF633A1550929D00A3E9BF /* ImageError.png in Resources */ = {isa = PBXBuildFile; fileRef = D2AF63391550929D00A3E9BF /* ImageError.png */; };
+		D2B7357A154FF6A40099ABBC /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B73579154FF6A40099ABBC /* HeaderView.m */; };
+		D2B7357D154FF6B40099ABBC /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B7357C154FF6B40099ABBC /* HeaderView.xib */; };
+		D2B73581154FF6D80099ABBC /* ViewLoadedFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B73580154FF6D80099ABBC /* ViewLoadedFromNib.m */; };
+		D2B73584155012C90099ABBC /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B73583155012C90099ABBC /* ContentView.m */; };
+		D2EEAE1D15502176001E3EB6 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EEAE1C15502176001E3EB6 /* Photo.m */; };
+		D2F2414A1552A5BE001C6B42 /* loadmore_button_finished.png in Resources */ = {isa = PBXBuildFile; fileRef = D2F241461552A5BE001C6B42 /* loadmore_button_finished.png */; };
+		D2F2414B1552A5BE001C6B42 /* loadmore_button_finished@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2F241471552A5BE001C6B42 /* loadmore_button_finished@2x.png */; };
+		D2F2414C1552A5BE001C6B42 /* loadmore_button_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = D2F241481552A5BE001C6B42 /* loadmore_button_loading.png */; };
+		D2F2414D1552A5BE001C6B42 /* loadmore_button_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2F241491552A5BE001C6B42 /* loadmore_button_loading@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D22C5808154B65C10099DC20 /* instagram4iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagram4iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22C580C154B65C10099DC20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D22C580E154B65C10099DC20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D22C5810154B65C10099DC20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D22C5824154B65C10099DC20 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D22C583D154B66760099DC20 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D22C583E154B66760099DC20 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D22C583F154B66760099DC20 /* ImageRect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageRect.png; sourceTree = "<group>"; };
+		D22C5848154B67CA0099DC20 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D22C5849154B67CA0099DC20 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D22C584D154B67EC0099DC20 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D22C584F154B6A860099DC20 /* logo_instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_instagram.png; sourceTree = "<group>"; };
+		D22C5850154B6A860099DC20 /* logo_instagram@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_instagram@2x.png"; sourceTree = "<group>"; };
+		D22FAD7F154BFED80012D15D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D22FAD80154BFED80012D15D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		D22FAD83154BFED80012D15D /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		D22FAD86154C042E0012D15D /* button_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_close.png; sourceTree = "<group>"; };
+		D22FAD87154C042E0012D15D /* button_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_close@2x.png"; sourceTree = "<group>"; };
+		D22FAD8A154C0AED0012D15D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D22FAD8E154C0D310012D15D /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		D22FAD8F154C0D310012D15D /* DataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProvider.m; sourceTree = "<group>"; };
+		D22FAD90154C0D310012D15D /* JSONDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDataProvider.h; sourceTree = "<group>"; };
+		D22FAD91154C0D310012D15D /* JSONDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDataProvider.m; sourceTree = "<group>"; };
+		D22FAD93154C0D320012D15D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		D22FAD94154C0D320012D15D /* NSArray+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SBJSON.h"; sourceTree = "<group>"; };
+		D22FAD95154C0D320012D15D /* NSArray+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SBJSON.m"; sourceTree = "<group>"; };
+		D22FAD96154C0D320012D15D /* NSDictionary+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SBJSON.h"; sourceTree = "<group>"; };
+		D22FAD97154C0D320012D15D /* NSDictionary+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SBJSON.m"; sourceTree = "<group>"; };
+		D22FAD98154C0D320012D15D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		D22FAD99154C0D320012D15D /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		D22FAD9A154C0D320012D15D /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		D22FAD9B154C0D320012D15D /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		D22FAD9C154C0D320012D15D /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		D22FAD9D154C0D320012D15D /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		D22FAD9E154C0D320012D15D /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		D22FAD9F154C0D320012D15D /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		D22FADA0154C0D320012D15D /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		D22FADA1154C0D320012D15D /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		D22FADA2154C0D320012D15D /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		D22FADA3154C0D320012D15D /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		D22FADA5154C0D320012D15D /* extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extensions.h; sourceTree = "<group>"; };
+		D22FADA6154C0D320012D15D /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		D22FADA7154C0D320012D15D /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		D22FADA8154C0D320012D15D /* UIColor+rgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+rgb.h"; sourceTree = "<group>"; };
+		D22FADA9154C0D320012D15D /* UIColor+rgb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+rgb.m"; sourceTree = "<group>"; };
+		D22FADAC154C0D320012D15D /* UILabel+VerticalTextAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VerticalTextAlignment.h"; sourceTree = "<group>"; };
+		D22FADAD154C0D320012D15D /* UILabel+VerticalTextAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VerticalTextAlignment.m"; sourceTree = "<group>"; };
+		D22FADAE154C0D320012D15D /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
+		D22FADAF154C0D320012D15D /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
+		D22FADC9154C17710012D15D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D22FADCB154C1E280012D15D /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		D22FADCC154C1E280012D15D /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		D22FADD2154C22F50012D15D /* ImageListDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageListDataProvider.h; sourceTree = "<group>"; };
+		D22FADD3154C22F50012D15D /* ImageListDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageListDataProvider.m; sourceTree = "<group>"; };
+		D22FADD5154C27100012D15D /* UserInfoDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoDataProvider.h; sourceTree = "<group>"; };
+		D22FADD6154C27100012D15D /* UserInfoDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoDataProvider.m; sourceTree = "<group>"; };
+		D22FADDF154C298D0012D15D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D22FADE0154C298D0012D15D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D23B9AE415CABEB6006009F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		D23B9AE615CABF04006009F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = instagram4iPad/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D23B9AE715CABF04006009F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = instagram4iPad/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D23B9AE815CABF05006009F8 /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = global.h; path = instagram4iPad/global.h; sourceTree = SOURCE_ROOT; };
+		D23B9AE915CABF05006009F8 /* instagram4iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "instagram4iPad-Info.plist"; path = "instagram4iPad/instagram4iPad-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D23B9AEA15CABF06006009F8 /* instagram4iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "instagram4iPad-Prefix.pch"; path = "instagram4iPad/instagram4iPad-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D23B9AEB15CABF07006009F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = instagram4iPad/main.m; sourceTree = SOURCE_ROOT; };
+		D25A4F15155165B1004E1132 /* ThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailView.h; sourceTree = "<group>"; };
+		D25A4F16155165B1004E1132 /* ThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailView.m; sourceTree = "<group>"; };
+		D25A4F19155165CD004E1132 /* ThumbnailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbnailView.xib; sourceTree = "<group>"; };
+		D25A4F1B15516BBC004E1132 /* ImageError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageError@2x.png"; sourceTree = "<group>"; };
+		D25A4F1C15516BBC004E1132 /* loadmore_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadmore_button.png; sourceTree = "<group>"; };
+		D25A4F1D15516BBC004E1132 /* loadmore_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loadmore_button@2x.png"; sourceTree = "<group>"; };
+		D25A4F2115516BE8004E1132 /* ImageRect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageRect@2x.png"; sourceTree = "<group>"; };
+		D25A4F2315517E47004E1132 /* location_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_marker.png; sourceTree = "<group>"; };
+		D25A4F2415517E47004E1132 /* location_marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location_marker@2x.png"; sourceTree = "<group>"; };
+		D25A4F2715517FEB004E1132 /* NSDictionary+safeObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+safeObjectForKey.h"; sourceTree = "<group>"; };
+		D25A4F2815517FEB004E1132 /* NSDictionary+safeObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+safeObjectForKey.m"; sourceTree = "<group>"; };
+		D25A4F2C15518574004E1132 /* FullscreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullscreenViewController.h; sourceTree = "<group>"; };
+		D25A4F2D15518574004E1132 /* FullscreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullscreenViewController.m; sourceTree = "<group>"; };
+		D25A4F3015518574004E1132 /* FullscreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FullscreenViewController.xib; sourceTree = "<group>"; };
+		D25A4F331551D23C004E1132 /* sharebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharebutton.png; sourceTree = "<group>"; };
+		D25A4F341551D23C004E1132 /* sharebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sharebutton@2x.png"; sourceTree = "<group>"; };
+		D25A4F371551D774004E1132 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D265DE291551F0CD00ACCB20 /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		D265DE2A1551F0CD00ACCB20 /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad@2x.png"; sourceTree = "<group>"; };
+		D267C59115502A950057169B /* LazyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyImageView.h; sourceTree = "<group>"; };
+		D267C59215502A950057169B /* LazyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyImageView.m; sourceTree = "<group>"; };
+		D2A64DEA154C329F00200EEF /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D2AF63391550929D00A3E9BF /* ImageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageError.png; sourceTree = "<group>"; };
+		D2B73578154FF6A40099ABBC /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		D2B73579154FF6A40099ABBC /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		D2B7357C154FF6B40099ABBC /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		D2B7357F154FF6D80099ABBC /* ViewLoadedFromNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLoadedFromNib.h; sourceTree = "<group>"; };
+		D2B73580154FF6D80099ABBC /* ViewLoadedFromNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLoadedFromNib.m; sourceTree = "<group>"; };
+		D2B73582155012C90099ABBC /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		D2B73583155012C90099ABBC /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		D2EEAE1B15502176001E3EB6 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		D2EEAE1C15502176001E3EB6 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		D2F241461552A5BE001C6B42 /* loadmore_button_finished.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadmore_button_finished.png; sourceTree = "<group>"; };
+		D2F241471552A5BE001C6B42 /* loadmore_button_finished@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loadmore_button_finished@2x.png"; sourceTree = "<group>"; };
+		D2F241481552A5BE001C6B42 /* loadmore_button_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadmore_button_loading.png; sourceTree = "<group>"; };
+		D2F241491552A5BE001C6B42 /* loadmore_button_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loadmore_button_loading@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22C5805154B65C10099DC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C580D154B65C10099DC20 /* UIKit.framework in Frameworks */,
+				D22C580F154B65C10099DC20 /* Foundation.framework in Frameworks */,
+				D22C5811154B65C10099DC20 /* CoreGraphics.framework in Frameworks */,
+				D22FAD8B154C0AED0012D15D /* QuartzCore.framework in Frameworks */,
+				D22FADCA154C17710012D15D /* Security.framework in Frameworks */,
+				D25A4F381551D774004E1132 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22C57FD154B65C10099DC20 = {
+			isa = PBXGroup;
+			children = (
+				D22C5812154B65C10099DC20 /* instagram4iPad */,
+				D22FAD8C154C0D310012D15D /* library */,
+				D22C583B154B66760099DC20 /* ressources */,
+				D22C580B154B65C10099DC20 /* Frameworks */,
+				D22C5809154B65C10099DC20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22C5809154B65C10099DC20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22C5808154B65C10099DC20 /* instagram4iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22C580B154B65C10099DC20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D25A4F371551D774004E1132 /* MessageUI.framework */,
+				D22FADC9154C17710012D15D /* Security.framework */,
+				D22FAD8A154C0AED0012D15D /* QuartzCore.framework */,
+				D22C580C154B65C10099DC20 /* UIKit.framework */,
+				D22C580E154B65C10099DC20 /* Foundation.framework */,
+				D22C5810154B65C10099DC20 /* CoreGraphics.framework */,
+				D22C5824154B65C10099DC20 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D22C5812154B65C10099DC20 /* instagram4iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D23B9AE415CABEB6006009F8 /* README.md */,
+				D23B9AE815CABF05006009F8 /* global.h */,
+				D23B9AEB15CABF07006009F8 /* main.m */,
+				D23B9AE615CABF04006009F8 /* AppDelegate.h */,
+				D23B9AE715CABF04006009F8 /* AppDelegate.m */,
+				D23B9AE915CABF05006009F8 /* instagram4iPad-Info.plist */,
+				D23B9AEA15CABF06006009F8 /* instagram4iPad-Prefix.pch */,
+				D22C5843154B67A30099DC20 /* classes */,
+			);
+			name = instagram4iPad;
+			path = "nbt-insta";
+			sourceTree = "<group>";
+		};
+		D22C583B154B66760099DC20 /* ressources */ = {
+			isa = PBXGroup;
+			children = (
+				D2A64DE9154C329F00200EEF /* language */,
+				D22C583C154B66760099DC20 /* images */,
+			);
+			path = ressources;
+			sourceTree = "<group>";
+		};
+		D22C583C154B66760099DC20 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D25A4F331551D23C004E1132 /* sharebutton.png */,
+				D25A4F341551D23C004E1132 /* sharebutton@2x.png */,
+				D22FAD86154C042E0012D15D /* button_close.png */,
+				D22FAD87154C042E0012D15D /* button_close@2x.png */,
+				D265DE291551F0CD00ACCB20 /* Icon-iPad.png */,
+				D265DE2A1551F0CD00ACCB20 /* Icon-iPad@2x.png */,
+				D22C583D154B66760099DC20 /* Icon.png */,
+				D22C583E154B66760099DC20 /* Icon@2x.png */,
+				D2AF63391550929D00A3E9BF /* ImageError.png */,
+				D25A4F1B15516BBC004E1132 /* ImageError@2x.png */,
+				D2F241461552A5BE001C6B42 /* loadmore_button_finished.png */,
+				D2F241471552A5BE001C6B42 /* loadmore_button_finished@2x.png */,
+				D2F241481552A5BE001C6B42 /* loadmore_button_loading.png */,
+				D2F241491552A5BE001C6B42 /* loadmore_button_loading@2x.png */,
+				D25A4F1C15516BBC004E1132 /* loadmore_button.png */,
+				D25A4F1D15516BBC004E1132 /* loadmore_button@2x.png */,
+				D22C583F154B66760099DC20 /* ImageRect.png */,
+				D25A4F2115516BE8004E1132 /* ImageRect@2x.png */,
+				D22C584F154B6A860099DC20 /* logo_instagram.png */,
+				D22C5850154B6A860099DC20 /* logo_instagram@2x.png */,
+				D25A4F2315517E47004E1132 /* location_marker.png */,
+				D25A4F2415517E47004E1132 /* location_marker@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D22C5843154B67A30099DC20 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D22FADD8154C28D00012D15D /* Shared */,
+				D22C5844154B67A30099DC20 /* MainViewController */,
+				D25A4F2A15518573004E1132 /* FullscreenViewController */,
+				D22FAD7D154BFED80012D15D /* WebViewController */,
+			);
+			path = classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		D22C5844154B67A30099DC20 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D22C5845154B67A30099DC20 /* controller */,
+				D22C5846154B67A30099DC20 /* model */,
+				D22C5847154B67A30099DC20 /* view */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		D22C5845154B67A30099DC20 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D22C5848154B67CA0099DC20 /* MainViewController.h */,
+				D22C5849154B67CA0099DC20 /* MainViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D22C5846154B67A30099DC20 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D22FADD2154C22F50012D15D /* ImageListDataProvider.h */,
+				D22FADD3154C22F50012D15D /* ImageListDataProvider.m */,
+				D22FADD5154C27100012D15D /* UserInfoDataProvider.h */,
+				D22FADD6154C27100012D15D /* UserInfoDataProvider.m */,
+				D2EEAE1B15502176001E3EB6 /* Photo.h */,
+				D2EEAE1C15502176001E3EB6 /* Photo.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D22C5847154B67A30099DC20 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D22C584D154B67EC0099DC20 /* MainViewController.xib */,
+				D2B73578154FF6A40099ABBC /* HeaderView.h */,
+				D2B73579154FF6A40099ABBC /* HeaderView.m */,
+				D2B7357C154FF6B40099ABBC /* HeaderView.xib */,
+				D2B73582155012C90099ABBC /* ContentView.h */,
+				D2B73583155012C90099ABBC /* ContentView.m */,
+				D25A4F15155165B1004E1132 /* ThumbnailView.h */,
+				D25A4F16155165B1004E1132 /* ThumbnailView.m */,
+				D25A4F19155165CD004E1132 /* ThumbnailView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D22FAD7D154BFED80012D15D /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D22FAD7E154BFED80012D15D /* controller */,
+				D22FAD81154BFED80012D15D /* model */,
+				D22FAD82154BFED80012D15D /* view */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		D22FAD7E154BFED80012D15D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D22FAD7F154BFED80012D15D /* WebViewController.h */,
+				D22FAD80154BFED80012D15D /* WebViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D22FAD81154BFED80012D15D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D22FAD82154BFED80012D15D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D22FAD83154BFED80012D15D /* WebViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D22FAD8C154C0D310012D15D /* library */ = {
+			isa = PBXGroup;
+			children = (
+				D267C59015502A950057169B /* LazyImageView */,
+				D22FAD8D154C0D310012D15D /* DataProvider */,
+				D22FAD92154C0D310012D15D /* JSON */,
+				D22FADC5154C16E00012D15D /* KeychainWrapper */,
+				D22FADA4154C0D320012D15D /* UIKit_Extensions */,
+				D2B7357E154FF6D80099ABBC /* ViewLoadedFromNib */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		D22FAD8D154C0D310012D15D /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				D22FAD8E154C0D310012D15D /* DataProvider.h */,
+				D22FAD8F154C0D310012D15D /* DataProvider.m */,
+				D22FAD90154C0D310012D15D /* JSONDataProvider.h */,
+				D22FAD91154C0D310012D15D /* JSONDataProvider.m */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		D22FAD92154C0D310012D15D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D22FAD93154C0D320012D15D /* JSON.h */,
+				D22FAD94154C0D320012D15D /* NSArray+SBJSON.h */,
+				D22FAD95154C0D320012D15D /* NSArray+SBJSON.m */,
+				D22FAD96154C0D320012D15D /* NSDictionary+SBJSON.h */,
+				D22FAD97154C0D320012D15D /* NSDictionary+SBJSON.m */,
+				D22FAD98154C0D320012D15D /* NSObject+SBJSON.h */,
+				D22FAD99154C0D320012D15D /* NSObject+SBJSON.m */,
+				D22FAD9A154C0D320012D15D /* NSString+SBJSON.h */,
+				D22FAD9B154C0D320012D15D /* NSString+SBJSON.m */,
+				D22FAD9C154C0D320012D15D /* SBJSON.h */,
+				D22FAD9D154C0D320012D15D /* SBJSON.m */,
+				D22FAD9E154C0D320012D15D /* SBJsonBase.h */,
+				D22FAD9F154C0D320012D15D /* SBJsonBase.m */,
+				D22FADA0154C0D320012D15D /* SBJsonParser.h */,
+				D22FADA1154C0D320012D15D /* SBJsonParser.m */,
+				D22FADA2154C0D320012D15D /* SBJsonWriter.h */,
+				D22FADA3154C0D320012D15D /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		D22FADA4154C0D320012D15D /* UIKit_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D22FADA5154C0D320012D15D /* extensions.h */,
+				D22FADA6154C0D320012D15D /* NSString+Additions.h */,
+				D22FADA7154C0D320012D15D /* NSString+Additions.m */,
+				D22FADA8154C0D320012D15D /* UIColor+rgb.h */,
+				D22FADA9154C0D320012D15D /* UIColor+rgb.m */,
+				D22FADAC154C0D320012D15D /* UILabel+VerticalTextAlignment.h */,
+				D22FADAD154C0D320012D15D /* UILabel+VerticalTextAlignment.m */,
+				D22FADAE154C0D320012D15D /* UIView+position.h */,
+				D22FADAF154C0D320012D15D /* UIView+position.m */,
+				D25A4F2715517FEB004E1132 /* NSDictionary+safeObjectForKey.h */,
+				D25A4F2815517FEB004E1132 /* NSDictionary+safeObjectForKey.m */,
+			);
+			path = UIKit_Extensions;
+			sourceTree = "<group>";
+		};
+		D22FADC5154C16E00012D15D /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				D22FADCB154C1E280012D15D /* SFHFKeychainUtils.h */,
+				D22FADCC154C1E280012D15D /* SFHFKeychainUtils.m */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		D22FADD8154C28D00012D15D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D22FADD9154C28D00012D15D /* controller */,
+				D22FADDA154C28D00012D15D /* model */,
+				D22FADDB154C28D00012D15D /* view */,
+			);
+			name = Shared;
+			path = _Shared;
+			sourceTree = "<group>";
+		};
+		D22FADD9154C28D00012D15D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D22FADDF154C298D0012D15D /* BaseViewController.h */,
+				D22FADE0154C298D0012D15D /* BaseViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D22FADDA154C28D00012D15D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D22FADDB154C28D00012D15D /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D25A4F2A15518573004E1132 /* FullscreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D25A4F2B15518574004E1132 /* controller */,
+				D25A4F2E15518574004E1132 /* model */,
+				D25A4F2F15518574004E1132 /* view */,
+			);
+			path = FullscreenViewController;
+			sourceTree = "<group>";
+		};
+		D25A4F2B15518574004E1132 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D25A4F2C15518574004E1132 /* FullscreenViewController.h */,
+				D25A4F2D15518574004E1132 /* FullscreenViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D25A4F2E15518574004E1132 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D25A4F2F15518574004E1132 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D25A4F3015518574004E1132 /* FullscreenViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D267C59015502A950057169B /* LazyImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D267C59115502A950057169B /* LazyImageView.h */,
+				D267C59215502A950057169B /* LazyImageView.m */,
+			);
+			path = LazyImageView;
+			sourceTree = "<group>";
+		};
+		D2A64DE9154C329F00200EEF /* language */ = {
+			isa = PBXGroup;
+			children = (
+				D2A64DEA154C329F00200EEF /* Localizable.strings */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		D2B7357E154FF6D80099ABBC /* ViewLoadedFromNib */ = {
+			isa = PBXGroup;
+			children = (
+				D2B7357F154FF6D80099ABBC /* ViewLoadedFromNib.h */,
+				D2B73580154FF6D80099ABBC /* ViewLoadedFromNib.m */,
+			);
+			path = ViewLoadedFromNib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22C5807154B65C10099DC20 /* instagram4iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22C5835154B65C10099DC20 /* Build configuration list for PBXNativeTarget "instagram4iPad" */;
+			buildPhases = (
+				D22C5804154B65C10099DC20 /* Sources */,
+				D22C5805154B65C10099DC20 /* Frameworks */,
+				D22C5806154B65C10099DC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instagram4iPad;
+			productName = "nbt-insta";
+			productReference = D22C5808154B65C10099DC20 /* instagram4iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22C57FF154B65C10099DC20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D22C5802154B65C10099DC20 /* Build configuration list for PBXProject "instagram4iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D22C57FD154B65C10099DC20;
+			productRefGroup = D22C5809154B65C10099DC20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22C5807154B65C10099DC20 /* instagram4iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22C5806154B65C10099DC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C5840154B66760099DC20 /* Icon.png in Resources */,
+				D22C5841154B66760099DC20 /* Icon@2x.png in Resources */,
+				D22C5842154B66760099DC20 /* ImageRect.png in Resources */,
+				D22C584E154B67EC0099DC20 /* MainViewController.xib in Resources */,
+				D22C5851154B6A860099DC20 /* logo_instagram.png in Resources */,
+				D22C5852154B6A860099DC20 /* logo_instagram@2x.png in Resources */,
+				D22FAD85154BFED80012D15D /* WebViewController.xib in Resources */,
+				D22FAD88154C042E0012D15D /* button_close.png in Resources */,
+				D22FAD89154C042E0012D15D /* button_close@2x.png in Resources */,
+				D2A64DEB154C329F00200EEF /* Localizable.strings in Resources */,
+				D2B7357D154FF6B40099ABBC /* HeaderView.xib in Resources */,
+				D2AF633A1550929D00A3E9BF /* ImageError.png in Resources */,
+				D25A4F1A155165CD004E1132 /* ThumbnailView.xib in Resources */,
+				D25A4F1E15516BBC004E1132 /* ImageError@2x.png in Resources */,
+				D25A4F1F15516BBC004E1132 /* loadmore_button.png in Resources */,
+				D25A4F2015516BBC004E1132 /* loadmore_button@2x.png in Resources */,
+				D25A4F2215516BE8004E1132 /* ImageRect@2x.png in Resources */,
+				D25A4F2515517E47004E1132 /* location_marker.png in Resources */,
+				D25A4F2615517E47004E1132 /* location_marker@2x.png in Resources */,
+				D25A4F3215518574004E1132 /* FullscreenViewController.xib in Resources */,
+				D25A4F351551D23C004E1132 /* sharebutton.png in Resources */,
+				D25A4F361551D23C004E1132 /* sharebutton@2x.png in Resources */,
+				D265DE2B1551F0CD00ACCB20 /* Icon-iPad.png in Resources */,
+				D265DE2C1551F0CD00ACCB20 /* Icon-iPad@2x.png in Resources */,
+				D2F2414A1552A5BE001C6B42 /* loadmore_button_finished.png in Resources */,
+				D2F2414B1552A5BE001C6B42 /* loadmore_button_finished@2x.png in Resources */,
+				D2F2414C1552A5BE001C6B42 /* loadmore_button_loading.png in Resources */,
+				D2F2414D1552A5BE001C6B42 /* loadmore_button_loading@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22C5804154B65C10099DC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22C584B154B67CA0099DC20 /* MainViewController.m in Sources */,
+				D22FAD84154BFED80012D15D /* WebViewController.m in Sources */,
+				D22FADB4154C0D320012D15D /* DataProvider.m in Sources */,
+				D22FADB5154C0D320012D15D /* JSONDataProvider.m in Sources */,
+				D22FADB6154C0D320012D15D /* NSArray+SBJSON.m in Sources */,
+				D22FADB7154C0D320012D15D /* NSDictionary+SBJSON.m in Sources */,
+				D22FADB8154C0D320012D15D /* NSObject+SBJSON.m in Sources */,
+				D22FADB9154C0D320012D15D /* NSString+SBJSON.m in Sources */,
+				D22FADBA154C0D320012D15D /* SBJSON.m in Sources */,
+				D22FADBB154C0D320012D15D /* SBJsonBase.m in Sources */,
+				D22FADBC154C0D320012D15D /* SBJsonParser.m in Sources */,
+				D22FADBD154C0D320012D15D /* SBJsonWriter.m in Sources */,
+				D22FADBE154C0D320012D15D /* NSString+Additions.m in Sources */,
+				D22FADBF154C0D320012D15D /* UIColor+rgb.m in Sources */,
+				D22FADC1154C0D320012D15D /* UILabel+VerticalTextAlignment.m in Sources */,
+				D22FADC2154C0D320012D15D /* UIView+position.m in Sources */,
+				D22FADCD154C1E280012D15D /* SFHFKeychainUtils.m in Sources */,
+				D22FADD4154C22F50012D15D /* ImageListDataProvider.m in Sources */,
+				D22FADD7154C27100012D15D /* UserInfoDataProvider.m in Sources */,
+				D22FADE2154C29900012D15D /* BaseViewController.m in Sources */,
+				D2B7357A154FF6A40099ABBC /* HeaderView.m in Sources */,
+				D2B73581154FF6D80099ABBC /* ViewLoadedFromNib.m in Sources */,
+				D2B73584155012C90099ABBC /* ContentView.m in Sources */,
+				D2EEAE1D15502176001E3EB6 /* Photo.m in Sources */,
+				D267C59315502A950057169B /* LazyImageView.m in Sources */,
+				D25A4F17155165B1004E1132 /* ThumbnailView.m in Sources */,
+				D25A4F2915517FEB004E1132 /* NSDictionary+safeObjectForKey.m in Sources */,
+				D25A4F3115518574004E1132 /* FullscreenViewController.m in Sources */,
+				D23B9AEC15CABF17006009F8 /* AppDelegate.m in Sources */,
+				D23B9AED15CABF1D006009F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D22C5833154B65C10099DC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"kDEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D22C5834154B65C10099DC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D22C5836154B65C10099DC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instagram4iPad/instagram4iPad-Prefix.pch";
+				INFOPLIST_FILE = "instagram4iPad/instagram4iPad-Info.plist";
+				PRODUCT_NAME = instagram4iPad;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D22C5837154B65C10099DC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instagram4iPad/instagram4iPad-Prefix.pch";
+				INFOPLIST_FILE = "instagram4iPad/instagram4iPad-Info.plist";
+				PRODUCT_NAME = instagram4iPad;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22C5802154B65C10099DC20 /* Build configuration list for PBXProject "instagram4iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22C5833154B65C10099DC20 /* Debug */,
+				D22C5834154B65C10099DC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22C5835154B65C10099DC20 /* Build configuration list for PBXNativeTarget "instagram4iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22C5836154B65C10099DC20 /* Debug */,
+				D22C5837154B65C10099DC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D22C57FF154B65C10099DC20 /* Project object */;
+}
