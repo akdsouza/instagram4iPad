@@ -5,7 +5,7 @@ instagram4iPad
 The universal application demonstrates, how you can work with the instagram API, featuring a custom fullscreen UI.  
 The code is written with ARC and iOS 5.0 support, but also uses some old classes without ARC.
 
-See some [screenshots below](#Screenshots "Jump to screenshots").
+See some [screenshots below](#screenshots "Jump to screenshots").
 
 ### Class structure: ###############
 
