@@ -132,7 +132,7 @@
 		D22FADD6154C27100012D15D /* UserInfoDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoDataProvider.m; sourceTree = "<group>"; };
 		D22FADDF154C298D0012D15D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		D22FADE0154C298D0012D15D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		D23B9AE415CABEB6006009F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		D23B9AE415CABEB6006009F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D23B9AE615CABF04006009F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = instagram4iPad/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		D23B9AE715CABF04006009F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = instagram4iPad/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		D23B9AE815CABF05006009F8 /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = global.h; path = instagram4iPad/global.h; sourceTree = SOURCE_ROOT; };
