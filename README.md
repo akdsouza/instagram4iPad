@@ -1,4 +1,3 @@
-
 instagram4iPad
 --------------
 
@@ -31,16 +30,15 @@ See some [screenshots below](#screenshots "Jump to screenshots").
 ### What could be done better: ##############
 
 - JSON Parsing should be done asynchronous in the background
-- The GridView should use a system with reusable imageviews for better performance
-- You could generate Retina thumbnails from bigger sizes for better visuals on the new iPad
-- The DataProvider is not needed anymore. We should use the block-based NSURLConnection API instead.
+- The GridView should use a system with reusable imageviews for better performance (Collection View nowadays..)
+- We could generate Retina thumbnails from bigger sizes for better visuals on the new iPad
+- The DataProvider is not needed anymore. We should use the block-based NSURLConnection API instead. Will use much less code/files.
 
 ### References: ###############
 
 This project uses:
 
 - The keychain wrapper [SFHFKeychainUtils] by ldandersen.
-- The [DataProvider] by jaydee3.
 - The [json-framework] by stig.
 
 File created using the great [Mou App].
@@ -54,6 +52,5 @@ File created using the great [Mou App].
 
 
 [SFHFKeychainUtils]: https://github.com/ldandersen/scifihifi-iphone/tree/master/security
-[DataProvider]: https://github.com/jaydee3/DataProvider
 [json-framework]: https://github.com/stig/json-framework
 [Mou App]: http://mouapp.com/
